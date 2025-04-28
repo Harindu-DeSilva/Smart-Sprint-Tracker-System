@@ -6,12 +6,12 @@ The system enables remote control through Bluetooth which allows athletes to use
 
 
 
-*Methodology*
+*Methodology*:
 The project utilized a systematic approach through multiple essential phases for its development.
 
 
 
-*System Architecture Design*
+*System Architecture Design*:
 
 
 Defined all required hardware and software components.
@@ -20,7 +20,7 @@ The team established the path that data follows between system inputs from users
 
 
 
-*Component Integration*
+*Component Integration*:
 
 
 Centralized around the Arduino Uno for control and data processing.
@@ -38,7 +38,7 @@ The system includes LEDs and a Buzzer which produces audible and visual notifica
 
 
 
-*Main Functional Phases*
+*Main Functional Phases*:
 
 
 Initialization Phase: User inputs the sprint session parameters through the keypad.
@@ -49,7 +49,7 @@ During the display phase the LCD screen presents sprint information including la
 
 
 
-*Software Development*
+*Software Development*:
 
 The project utilized Wire.h, Keypad.h, LiquidCrystal_I2C.h together with standard Arduino libraries to manage I2C communication and keypad interaction and Bluetooth operations.
 
@@ -58,7 +58,7 @@ The system received algorithms to perform lap counting and lap timing and sessio
 
 
 
-*Testing and Calibration*
+*Testing and Calibration*:
 
 The team performed tests on IR sensors to minimize their false detection events.
 
@@ -69,7 +69,7 @@ The system received indoor environment calibration to achieve precise measuremen
 
 
 
-##Circuit Implementation
+##Circuit Implementation:
 The Smart Sprint Tracker System circuit required precise breadboard implementation using jumper wires to link essential components including Arduino Uno and two IR sensors and a 4x4 keypad and a 16x2 LCD display with I2C module.
 
 
